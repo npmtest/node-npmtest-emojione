@@ -1,8 +1,8 @@
 # npmtest-emojione
 
-#### test coverage for  [emojione (v2.2.7)](http://www.emojione.com)  [![npm package](https://img.shields.io/npm/v/npmtest-emojione.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-emojione) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-emojione.svg)](https://travis-ci.org/npmtest/node-npmtest-emojione)
+#### basic test coverage for  [emojione (v3.0.1)](http://www.emojione.com)  [![npm package](https://img.shields.io/npm/v/npmtest-emojione.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-emojione) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-emojione.svg)](https://travis-ci.org/npmtest/node-npmtest-emojione)
 
-#### Emoji One is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG and SVG formats provided for the emoji images.
+#### EmojiOne is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG formats provided for the emoji images.
 
 [![NPM](https://nodei.co/npm/emojione.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/emojione)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-emojione/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-emojione/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-emojione/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-emojione/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-emojione/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-emojione/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-emojione/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-emojione/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-emojione/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-emojione/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-emojione/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-emojione/build/coverage.html/index.html)
 
@@ -36,14 +36,14 @@
 
 {
     "author": {
-        "name": "Emoji One",
+        "name": "EmojiOne",
         "url": "http://emojione.com"
     },
     "bugs": {
         "url": "https://github.com/Ranks/emojione/issues"
     },
     "dependencies": {},
-    "description": "Emoji One is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG and SVG formats provided for the emoji images.",
+    "description": "EmojiOne is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG formats provided for the emoji images.",
     "devDependencies": {
         "grunt": "^1.0.1",
         "grunt-contrib-cssmin": "^0.12.2",
@@ -52,21 +52,18 @@
         "grunt-contrib-sass": "^0.9.2",
         "grunt-contrib-uglify": "^0.8.0",
         "grunt-contrib-watch": "^0.6.1",
-        "grunt-imageoptim": "^1.4.1",
-        "grunt-jsonlint": "^1.0.4",
-        "grunt-spritesmith": "^5.1.0",
-        "grunt-svgstore": "^0.5.0"
+        "grunt-jsonlint": "^1.0.4"
     },
     "directories": {},
     "dist": {
-        "shasum": "46457cf6b9b2f8da13ae8a2e4e547de06ee15e96",
-        "tarball": "https://registry.npmjs.org/emojione/-/emojione-2.2.7.tgz"
+        "shasum": "4106306d842deee9de170f45c372988afea1262c",
+        "tarball": "https://registry.npmjs.org/emojione/-/emojione-3.0.1.tgz"
     },
-    "gitHead": "dbf2df55150fbcce295e480aede2c603fb51ec12",
+    "gitHead": "07955d394c9f2e80dd43445fd2eb6bb4fd460d54",
     "homepage": "http://www.emojione.com",
     "keywords": [
         "emojione",
-        "Emoji One",
+        "EmojiOne",
         "emoji",
         "emojis",
         "emoticons",
@@ -94,7 +91,8 @@
     "scripts": {
         "test": "grunt travis"
     },
-    "version": "2.2.7"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
